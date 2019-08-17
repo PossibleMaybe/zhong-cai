@@ -1,0 +1,32 @@
+.notice-container {
+  padding: 0 0.32rem;
+  .notice-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 0.48rem;
+    border-radius: 0.24rem;
+    background:rgba(44,42,45,1);
+  }
+  .icon-wrapper {
+    padding: 0 0.1rem 0 0.3rem;
+    display: flex;
+    align-items: center;
+    img {
+      width: 0.28rem;
+      height: 0.28rem;
+    }
+  }
+  .notice-des {
+    flex: 1;
+    overflow: hidden;
+    p {
+      font-size: 0.24rem;
+      color: #FF4646;
+      line-height: 0.48rem;
+    }
+  }
+  .notice-text {
+    animation: notice 10s linear 0s infinite normal;
+  }
+}
